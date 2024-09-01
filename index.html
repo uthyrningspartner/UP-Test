@@ -1,0 +1,274 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <link href="responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+    .header {
+        font-family: "Quicksand", sans-serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #2C424C;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .navbar-links {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.0rem;
+    }
+
+    .main-text {
+        font-size: 36px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+    .filler {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: white;
+    }
+
+    .myH2 {
+        text-align: center;
+        font-size: 4rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .myP {
+        text-align: justify;
+        padding-left: 22%;
+        padding-right: 22%;
+        font-size: 20px;
+    }
+
+    @media (max-width: 992px) {
+    .myP {
+        text-align: justify;
+        padding-left: 12%;
+        padding-right: 12%;
+        font-size: 24px;
+    }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+    .myP {
+        text-align: justify;
+        padding-left: 12%;
+        padding-right: 12%;
+        font-size: 18px;
+    }
+}
+
+    
+</style>
+
+
+<body>
+
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">Uthyrnings Partner</div>
+            <div class="navbar-links">
+                <a href="#1">Om oss</a>
+                <a href="#2">Kontakt</a>
+            </div>
+        </div>
+        <div class="main-text">
+            Din pålitliga partner inom uthyrning
+        </div>
+    </header>
+
+    <header class="filler" id="1">
+        <h2 class="myH2" style="font-size: 24px;">Om oss</h2>
+        <p class="myP">På uthyrningspartner har vi lång erfarehet inom fastighetsbranchen och en djup förståelse för vad
+            som krävs för att lyckas med uthyrning av fastigheter. Vår passion är att hjälpa fastighetsägare att
+            maximera sin uthyrningspotential genom att förbättra och effektivesera hela proccessen.</p>
+    </header>
+<hr style="height: 10px; color: black;border-top: 1px solid black;">
+    <header class="filler" id="2">
+        <h2 class="myH2" style="font-size: 24px;">Kontakt</h2>
+        <p class="myP">På uthyrningspartner har vi lång erfarehet inom fastighetsbranchen och en djup förståelse för vad
+            som krävs för att lyckas med uthyrning av fastigheter. Vår passion är att hjälpa fastighetsägare att
+            maximera sin uthyrningspotential genom att förbättra och effektivesera hela proccessen.</p>
+    </header>
+
+
+    <section class="info_section ">
+        <div class="info_container layout_padding-top">
+            <div class="container">
+                <div class="info_top">
+                    <div class="info_logo">
+                        <img src="images/UP_logo.png" alt="" />
+                        <span>
+                            Uthyrnings Partner
+                        </span>
+                    </div>
+                    <div class="social_box">
+                        <a href="#">
+                            <img src="images/linkedin.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info_main">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-2">
+                            <div class="info_link-box">
+                                <h5>
+                                    Useful Link
+                                </h5>
+                                <ul>
+                                    <li class=" active">
+                                        <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="about.html">About </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="work.html">Work </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="category.html">Category </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h5>
+                                Offices
+                            </h5>
+                            <p>
+                                Readable content of a page when looking at its layoutreadable content of a page when
+                                looking at its layout
+                            </p>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 offset-lg-1">
+                            <h5>
+                                Information
+                            </h5>
+                            <p>
+                                Readable content of a page when looking at its layoutreadable content of a page when
+                                looking at its layout
+                            </p>
+                        </div>
+
+                        <div class="col-md-3  offset-lg-1">
+                            <div class="info_form ">
+                                <h5>
+                                    Newsletter
+                                </h5>
+                                <form action="">
+                                    <input type="email" placeholder="Email">
+                                    <button>
+                                        Subscribe
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-md-10 mx-auto">
+                        <div class="info_contact layout_padding2">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="#" class="link-box">
+                                        <div class="img-box">
+                                            <img src="images/location.png" alt="">
+                                        </div>
+                                        <div class="detail-box">
+                                            <h6>
+                                                Stockholm
+                                            </h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="link-box">
+                                        <div class="img-box">
+                                            <img src="images/mail.png" alt="">
+                                        </div>
+                                        <div class="detail-box">
+                                            <h6>
+                                                support@uthyrningspartner.se
+                                            </h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="#" class="link-box">
+                                        <div class="img-box">
+                                            <img src="images/call.png" alt="">
+                                        </div>
+                                        <div class="detail-box">
+                                            <h6>
+                                                +46 1234567890
+                                            </h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- end info section -->
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section ">
+        <div class="container">
+            <p>
+                &copy; <span id="displayDate"></span>
+                <a href="">UthyrningsPartner</a>
+            </p>
+        </div>
+    </footer>
+    <!-- end  footer section -->
+</body>
+
+</html>
